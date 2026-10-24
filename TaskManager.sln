@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Api", "src\TaskManager.Api\TaskManager.Api.csproj", "{9F8E5086-31C4-4D86-A36B-867FF2E14EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Api.Tests", "tests\TaskManager.Api.Tests\TaskManager.Api.Tests.csproj", "{C42BCF72-E82C-4D45-94C5-5248B6E75D70}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|Any CPU = Debug|Any CPU
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {9F8E5086-31C4-4D86-A36B-867FF2E14EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {9F8E5086-31C4-4D86-A36B-867FF2E14EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {9F8E5086-31C4-4D86-A36B-867FF2E14EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {9F8E5086-31C4-4D86-A36B-867FF2E14EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+  {C42BCF72-E82C-4D45-94C5-5248B6E75D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {C42BCF72-E82C-4D45-94C5-5248B6E75D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {C42BCF72-E82C-4D45-94C5-5248B6E75D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {C42BCF72-E82C-4D45-94C5-5248B6E75D70}.Release|Any CPU.Build.0 = Release|Any CPU
+ EndGlobalSection
+EndGlobal

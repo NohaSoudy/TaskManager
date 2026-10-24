@@ -1,0 +1,63 @@
+# Managed by squad-kit — do not edit this block
+.squad/secrets.yaml
+.squad/stories/**/attachments/
+.squad/.trash/
+.squad/.last-run.json
+.squad/.last-copy-prompt.md
+.squad/runs/
+# End squad-kit block
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.sln.DotSettings.user
+
+# Local environment and configuration overrides
+.env
+.env.*
+appsettings.*.json
+!appsettings.json
+
+# Logs and diagnostic output
+*.log
+*.logs
+logs/
+TestResults/
+
+# Local databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+*.backup
+*.sql.gz
+*.pgsql.gz
+pg_wal/
+pg_log/
+
+# Temporary/editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
