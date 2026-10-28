@@ -62,3 +62,7 @@ Task routes:
 - `DELETE /api/tasks/{id}`: delete; returns `204`.
 
 Validation failures return `400` validation problem details; missing tasks return `404`. Swagger is enabled only in Development and contains no database credentials.
+
+## Development Workflow
+
+Test changes locally before committing them and pushing them to GitHub.
